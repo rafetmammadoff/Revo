@@ -1,3 +1,21 @@
+$('.today-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+
 $('.slider-owl').owlCarousel({
     loop:true,
     margin:10,
@@ -6,6 +24,9 @@ $('.slider-owl').owlCarousel({
     responsive:{
         0:{
             items:1
+        },
+        450 :{
+            items:2
         },
         600:{
             items:3
@@ -51,3 +72,13 @@ function myFunction2(){
     var element2 =document.getElementById('slide-component-2');
     element2.classList.toggle('style-3')
 }
+
+
+// let message = '<div id="two">twalsdjas aojdsoa dsjaodja  aodsjaosd oj aosdjao sdohjaosd o</div>';
+
+
+
+// var d1 = document.querySelector('body');
+// d1.append(message);
+
+// jaa

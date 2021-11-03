@@ -3,6 +3,7 @@
   width: 100%;
   overflow: hidden;
   z-index: 0;
+  font-family: raleway;
 }
 
 #slide-component-2 {
@@ -584,7 +585,7 @@
 }
 
 #featured .custom-container .row .col-2 .cart .img-area:hover::after {
-  width: 87% !important;
+  width: 100% !important;
 }
 
 #featured .custom-container .row .col-2 .cart:hover .about {
@@ -605,6 +606,160 @@
   height: 52px;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+#today-deals {
+  margin-top: 40px;
+}
+
+#today-deals .custom-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#today-deals .custom-container .row .col-lg-9 {
+  border: 1px solid gray;
+  width: 73%;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area .w-60 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 85px;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area .sm-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff5c00;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt {
+  margin-top: 20px;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt p {
+  color: #4f4f4f;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  color: orangered;
+  border-bottom: .5px solid #e1e1e1;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .stars i {
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .content {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .foot {
+  font-size: 20px;
+  color: #ff5c00;
+  font-weight: 700;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .col-2 {
+  width: 131px;
+  height: 97px;
+  border: 1px solid #ff5c00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#today-deals .custom-container .row .col-lg-9 .slide-item .row .col-2 img {
+  width: 85px;
+}
+
+#today-deals .custom-container .row .col-lg-3 {
+  padding: 0;
+  border: 1px solid gray;
+}
+
+#today-deals .custom-container .row .col-lg-3 .head {
+  background: #f2f2f2;
+  padding: 12px 15px;
+}
+
+#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog .blog-text .raiting {
+  color: gray;
+}
+
+#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog .blog-text .price {
+  color: #ff5c00;
+  font-size: 18px;
 }
 
 .custom-container {
