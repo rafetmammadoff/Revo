@@ -88,3 +88,88 @@ a{
     transform: translateX(0) !important;
 }
 
+@media only screen and (max-width: 600px){
+    #featured{
+        .col-12{
+            width: 100% !important;
+            .cart{
+                width: 100% !important;
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #today-deals{
+        .txt{
+            display: none !important;
+        }
+    }
+}
+@media only screen and (min-width: 768px){
+    #fashion{
+        .one-component{
+            .card{
+                height: 263px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    #fashion{
+        .fashion-img{
+            img{
+                display: none !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    #fashion{
+        .fashion-items{
+            .row{
+                .col-lg-2{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px){
+    #fashion{
+        .fashion-items{
+            .row{
+                select{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
