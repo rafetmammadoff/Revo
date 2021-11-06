@@ -8,7 +8,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 0%;
+  height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0);
   display: -webkit-box;
@@ -38,16 +38,36 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: none;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
   color: white;
 }
 
-.card:hover .my-layer {
-  height: 100%;
+.card .my-layer .box-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card .my-layer .box-js .box-1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .card:hover .my-layer .box {
-  display: block;
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +77,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.card:hover .my-layer .box-1 {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .general-contain {
@@ -999,6 +1025,8 @@ a {
 .fashion-and-electronics .custom-container .row .fashion-img {
   padding: 0;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .fashion-and-electronics .custom-container .row .fashion-img .tittle {
@@ -1006,6 +1034,26 @@ a {
   margin: 0;
   background: #ff5c00;
   text-align: center;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-img::after {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  top: 49px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.5;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-img:hover::after {
+  width: 100%;
 }
 
 .fashion-and-electronics .custom-container .row .fashion-items {

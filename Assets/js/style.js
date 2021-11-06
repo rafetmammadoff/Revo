@@ -1,5 +1,5 @@
 $('.fashion-slide').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     dots:false,
@@ -26,7 +26,7 @@ $('.fashion-slide').owlCarousel({
 
 
 $('.today-slider').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     dots:false,
@@ -44,7 +44,7 @@ $('.today-slider').owlCarousel({
 });
 
 $('.slider-owl').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     dots:false,
@@ -70,7 +70,7 @@ $('.slider-owl').owlCarousel({
 
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     dots:false,
@@ -109,3 +109,53 @@ function myFunction2(){
 // d1.append(message);
 
 // jaa
+
+var boxarr = document.getElementsByClassName('box-1');
+
+// var boxarr = document.querySelectorAll('.box-1');
+
+// console.log(boxarr)
+
+// console.log(boxarr2)
+
+
+
+for(var i =0; i < boxarr.length; i++){
+    let box = boxarr[i]
+    box.addEventListener("mouseover", function() {
+        console.log(box)
+        var parent = box.closest(".card");
+        var imgarea = parent.querySelector('.img-area')
+        var img = imgarea.querySelector('img')    
+        if(img != null){
+            img.remove();
+        }
+        var boxunicindekiimage = box.querySelector('img');
+        var clone = boxunicindekiimage.cloneNode(true);
+        imgarea.appendChild(clone)
+    });
+}
+
+
+// boxarr.forEach(function(box) {
+//     box.addEventListener("mouseover", function() {
+//         console.log(box)
+//         var parent = box.closest(".card");
+//         var imgarea = parent.querySelector('.img-area')
+//         var img = imgarea.querySelector('img')    
+//         if(img != null){
+//             img.remove();
+//         }
+//         var boxunicindekiimage = box.querySelector('img');
+//         var clone = boxunicindekiimage.cloneNode(true);
+//         imgarea.appendChild(clone)
+//     });
+// });
+
+
+// var arr = [1,2,3,4,5]
+
+// for(var a = 0; a<arr.length; a++){
+//     console.log(arr[a])
+// }
+
