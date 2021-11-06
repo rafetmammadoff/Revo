@@ -98,8 +98,10 @@ $('.slider-owl').owlCarousel({
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    
     dots:false,
+    nav: true,
+    navText: ['<img style="width: 20px;" src="./img/download (1).png" alt="">','<img style="width: 20px;" src="./img/download (1).png" alt="">'],
     responsive:{
         0:{
             items:1
@@ -149,7 +151,6 @@ var boxarr = document.getElementsByClassName('box-1');
 for(var i =0; i < boxarr.length; i++){
     let box = boxarr[i]
     box.addEventListener("mouseover", function() {
-        console.log(box)
         var parent = box.closest(".card");
         var imgarea = parent.querySelector('.img-area')
         var img = imgarea.querySelector('img')    
