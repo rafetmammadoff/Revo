@@ -1,0 +1,42 @@
+.card{
+    position: relative;
+    .my-layer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 0%;
+        width: 100%;
+        background-color: rgba(255,255,255,0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+        .box{
+            width: 40px;
+            height: 40px;
+            background-color: #ff5c00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+            color: white;
+        }
+
+    }
+
+    &:hover .my-layer{
+        height: 100%;
+
+        .box{
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+    
+}

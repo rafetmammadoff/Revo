@@ -108,7 +108,7 @@ a{
     }
 }
 @media only screen and (min-width: 768px){
-    #fashion{
+    .responsive{
         .one-component{
             .card{
                 height: 263px !important;
@@ -119,7 +119,7 @@ a{
 }
 
 @media only screen and (max-width: 768px){
-    #fashion{
+    .responsive{
         .fashion-img{
             img{
                 display: none !important;
@@ -128,7 +128,7 @@ a{
     }
 }
 @media only screen and (max-width: 768px){
-    #fashion{
+    .responsive{
         .fashion-items{
             .row{
                 .col-lg-2{
@@ -139,7 +139,7 @@ a{
     }
 }
 @media only screen and (min-width: 768px){
-    #fashion{
+    .responsive{
         .fashion-items{
             .row{
                 select{
@@ -149,6 +149,63 @@ a{
         }
     }
 }
+
+
+@media only screen and (min-width: 768px){
+    #electronic{
+        .one-component{
+            .card{
+                height: 263px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    #electronic{
+        .fashion-img{
+            img{
+                display: none !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    #electronic{
+        .fashion-items{
+            .row{
+                .col-lg-2{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px){
+    #electronic{
+        .fashion-items{
+            .row{
+                select{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    #electronic{
+        .big-row{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+
+
+
+
 
 
 

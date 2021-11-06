@@ -1,3 +1,64 @@
+.card {
+  position: relative;
+}
+
+.card .my-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.card .my-layer .box {
+  width: 40px;
+  height: 40px;
+  background-color: #ff5c00;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+  color: white;
+}
+
+.card:hover .my-layer {
+  height: 100%;
+}
+
+.card:hover .my-layer .box {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .general-contain {
   position: relative;
   width: 100%;
@@ -762,116 +823,6 @@
   font-size: 18px;
 }
 
-#fashion .custom-container .row .fashion-img {
-  padding: 0;
-  overflow: hidden;
-}
-
-#fashion .custom-container .row .fashion-img .tittle {
-  padding: 15px 4px 15px 0;
-  margin: 0;
-  background: #ff5c00;
-  text-align: center;
-}
-
-#fashion .custom-container .row .fashion-items {
-  padding: 0;
-}
-
-#fashion .custom-container .row .fashion-items .row {
-  background: #f2f2f2;
-}
-
-#fashion .custom-container .row .fashion-items .row .col-lg-2 {
-  padding: 13px 0px 13px 0px;
-  margin-left: 20px;
-}
-
-#fashion .custom-container .row .fashion-items .row select {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 6px 0 6px 0;
-  margin-left: 20px;
-}
-
-#fashion .custom-container .row .fashion-items .components {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component {
-  padding: 10px;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 5px;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .img-area {
-  height: 60%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .img-area img {
-  width: 72%;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area {
-  width: 100%;
-  height: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area .about {
-  text-align: center;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area .about .marca {
-  margin: 0;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area .about span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area .about span i {
-  margin-right: 7px;
-}
-
-#fashion .custom-container .row .fashion-items .components .one-component .card .text-area .about .price {
-  color: #ff5c00;
-  margin: 0;
-}
-
 .custom-container {
   max-width: 1160px;
 }
@@ -982,26 +933,183 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-  #fashion .one-component .card {
+  .responsive .one-component .card {
     height: 263px !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #fashion .fashion-img img {
+  .responsive .fashion-img img {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #fashion .fashion-items .row .col-lg-2 {
+  .responsive .fashion-items .row .col-lg-2 {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #fashion .fashion-items .row select {
+  .responsive .fashion-items .row select {
     display: none !important;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  #electronic .one-component .card {
+    height: 263px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #electronic .fashion-img img {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #electronic .fashion-items .row .col-lg-2 {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #electronic .fashion-items .row select {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #electronic .big-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.fashion-and-electronics {
+  margin-top: 50px;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-img {
+  padding: 0;
+  overflow: hidden;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-img .tittle {
+  padding: 15px 4px 15px 0;
+  margin: 0;
+  background: #ff5c00;
+  text-align: center;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items {
+  padding: 0;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .row {
+  width: 100%;
+  margin-left: 0;
+  background: #f2f2f2;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .row .col-lg-2 {
+  padding: 13px 0px 13px 0px;
+  margin-left: 20px;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .row select {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px 0 6px 0;
+  margin-left: 5px;
+  outline: none;
+  border: none;
+  background: #F2F2F2;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component {
+  padding: 5px;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .img-area {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .img-area img {
+  width: 72%;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area .about {
+  text-align: center;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area .about .marca {
+  margin: 0;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area .about span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10px;
+  color: gray;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area .about span i {
+  margin-right: 7px;
+}
+
+.fashion-and-electronics .custom-container .row .fashion-items .components .one-component .card .text-area .about .price {
+  color: #ff5c00;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
