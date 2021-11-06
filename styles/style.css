@@ -699,51 +699,15 @@
   margin-top: 40px;
 }
 
-#today-deals .custom-container .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+#today-deals .custom-container .big-row .first-slide-area {
+  padding: 10px;
 }
 
-#today-deals .custom-container .row .col-lg-9 {
+#today-deals .custom-container .big-row .first-slide-area .my-slider {
   border: 1px solid gray;
-  width: 73%;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 15px;
-  border-bottom: 1px solid gray;
-}
-
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  position: relative;
-}
-
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area .w-60 {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  width: 85px;
-}
-
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .imag .img-area .sm-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #ff5c00;
-  color: white;
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .left-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -753,23 +717,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 30px;
-  position: absolute;
-  top: 10px;
-  right: 0;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt {
-  margin-top: 20px;
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .left-img img {
+  width: 300px;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt p {
-  color: #4f4f4f;
-  font-size: 17px;
-  font-weight: 600;
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .right-text .big-text {
+  margin-top: 10%;
+  padding: 10px;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .stars {
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .right-text .big-text span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,32 +736,51 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 10px;
-  color: orangered;
-  border-bottom: .5px solid #e1e1e1;
+  margin-bottom: 20px;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .stars i {
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .right-text .big-text span i {
   margin-right: 5px;
-  margin-bottom: 20px;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .content {
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .right-text .big-text .content {
   font-size: 13px;
-  font-weight: 400;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  padding-top: 15px;
+  border-top: 1px solid gray;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .txt .foot {
-  font-size: 20px;
+#today-deals .custom-container .big-row .first-slide-area .my-slider .small-row .right-text .big-text .price {
+  font-size: 23px;
   color: #ff5c00;
-  font-weight: 700;
+  font-weight: 600;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .col-2 {
-  width: 131px;
-  height: 97px;
-  border: 1px solid #ff5c00;
+#today-deals .custom-container .big-row .first-slide-area .second-slider {
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: none;
+}
+
+#today-deals .custom-container .big-row .first-slide-area .second-slider .owl-item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+#today-deals .custom-container .big-row .first-slide-area .second-slider .blog {
+  border: 1px solid gray;
+  width: 119px;
+  height: 85px;
+  padding: 5px;
+  margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -814,39 +792,50 @@
           justify-content: center;
 }
 
-#today-deals .custom-container .row .col-lg-9 .slide-item .row .col-2 img {
-  width: 85px;
+#today-deals .custom-container .big-row .first-slide-area .second-slider .blog img {
+  width: 81px;
 }
 
-#today-deals .custom-container .row .col-lg-3 {
-  padding: 0;
+#today-deals .custom-container .big-row .second-slide-area {
+  padding: 0 10px 0 10px;
+  border-top: none;
+}
+
+#today-deals .custom-container .big-row .second-slide-area .tittle {
+  display: block;
+  padding: 10px 0 10px 0;
+  margin-top: 10px;
+  background-color: #F2F2F2;
+}
+
+#today-deals .custom-container .big-row .second-slide-area .third-slider {
   border: 1px solid gray;
 }
 
-#today-deals .custom-container .row .col-lg-3 .head {
-  background: #f2f2f2;
-  padding: 12px 15px;
-}
-
-#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog {
-  font-size: 12px;
+#today-deals .custom-container .big-row .second-slide-area .third-slider .third-slide-item .component {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin-bottom: 5px;
 }
 
-#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog .blog-text .raiting {
+#today-deals .custom-container .big-row .second-slide-area .third-slider .third-slide-item .component .text-zone .about {
+  margin: 0;
+  font-size: 14px;
+}
+
+#today-deals .custom-container .big-row .second-slide-area .third-slider .third-slide-item .component .text-zone span {
+  font-size: 10px;
   color: gray;
 }
 
-#today-deals .custom-container .row .col-lg-3 .sm-component-slider .blog .blog-text .price {
+#today-deals .custom-container .big-row .second-slide-area .third-slider .third-slide-item .component .text-zone .price {
+  font-size: 16px;
   color: #ff5c00;
-  font-size: 18px;
+  font-weight: 600;
 }
 
 .custom-container {

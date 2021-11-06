@@ -1,5 +1,31 @@
+$('.today-slide').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        400:{
+            items:2
+
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+
+
+
+
 $('.fashion-slide').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
     nav:false,
     dots:false,
@@ -26,7 +52,7 @@ $('.fashion-slide').owlCarousel({
 
 
 $('.today-slider').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
     nav:false,
     dots:false,
@@ -44,7 +70,7 @@ $('.today-slider').owlCarousel({
 });
 
 $('.slider-owl').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
     nav:false,
     dots:false,
@@ -70,7 +96,7 @@ $('.slider-owl').owlCarousel({
 
 
 $('.owl-carousel').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
     nav:false,
     dots:false,

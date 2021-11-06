@@ -527,140 +527,142 @@
 #today-deals{
     margin-top: 40px;
     .custom-container{
-        .row{display: flex;
-            justify-content: space-between;
-            .col-lg-9{
-                border: 1px solid gray;
-                width: 73%;
-                .slide-item{
-                    
-                    .row{
-                        .owl-stage-outer{
-                            // height: 390px;
-                        }
-                        .slide{
-                            display: flex;
-                            margin-bottom: 15px;
-                            border-bottom: 1px solid gray;
-                        }
-                        .imag{
-                            .img-area{
-                                display: flex;
-                                align-items: flex-start;
-                                position: relative;
-                                .w-60{
-                                    position: absolute;
-                                    top: 30px;
-                                    left: 50px;
-                                    width: 85px;
-    
-    
-                                }
-                                .sm-logo{
-                                    width: 40px;
-                                    height: 40px;
-                                    border-radius: 50%;
-                                    background: #ff5c00;
-                                    color: white;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    margin-top: 30px;
-                                    position: absolute;
-                                    top: 10px;
-                                    right: 0;
-                                }
-                            }
-                        }
-                        .txt{
-                            margin-top: 20px;
-                            p{
-                                color: #4f4f4f;
-                                font-size: 17px;
-                                font-weight: 600;
-    
-                            }
-                            .stars{
-                                display: flex;
-                                align-items: center;
-                                font-size: 10px;
-                                color: orangered;
-                                border-bottom: .5px solid #e1e1e1;
-                                
-                                i{
-                                    margin-right: 5px;
-                                    margin-bottom: 20px;
-                                }
-                            }
-                            .content{
-                                font-size:13px;
-                                font-weight: 400;
-                                line-height: 1.8;
-                                margin-bottom: 20px;
-                                
-                            }
-                            .foot{
-                                font-size: 20px;
-                                color: #ff5c00;
-                                font-weight: 700;
-                            }
-                        }
-                        .col-2{
-                            width: 131px;
-                            height: 97px;
-                            border: 1px solid #ff5c00;
+        .big-row{
+            
+            .first-slide-area{
+                padding: 10px;
+               
+               .my-slider{
+                    border: 1px solid gray;
+                    .small-row{
+                        .left-img{
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             img{
-                                width: 85px;
+                                width: 300px;
+                            }
+                        }
+                        .right-text{
+                            
+                            .big-text{
+                                margin-top: 10%;
+                                padding: 10px;
+                                .tittle{
+
+                                }
+                                span{
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 10px;
+                                    margin-bottom: 20px;
+                                    i{
+                                        margin-right: 5px;
+                                    }
+                                }
+                                .content{
+                                    font-size: 13px;
+                                    padding-top: 15px;
+                                    border-top: 1px solid gray;
+        
+                                }
+                                .price{
+                                    font-size: 23px;
+                                    color: #ff5c00;
+                                    font-weight: 600;
+                                }
                             }
                         }
                     }
-                }
-                .foot-sm-img{
-                    // display: flex;
-                    // align-items: center;
-                    // justify-content: space-evenly;
-                }
-            }
-            .col-lg-3{
-                padding: 0;
-                border: 1px solid gray;
-                .head{
-                    background: #f2f2f2;
-                    padding: 12px 15px;
-
-                }
-                .sm-component-slider{
-                    
-                    .blog{
-                        font-size: 12px;
-                        display: flex;
+               }
+               .second-slider{
+                    border: 1px solid gray;
+                    display: flex;
+                    border-top: none;
+                    .owl-item{
+                        display: flex !important;
                         align-items: center;
-                        justify-content: space-around;
-                        .blog-text{
-                            .raiting{
-                                color: gray;
+                        justify-content: center !important;
+                    }
+                    
+                   .blog{
+                       border: 1px solid gray;
+                       width: 119px;
+                       height: 85px;
+                       padding: 5px;
+                       margin: 10px;
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       img{
+                           width: 81px;
+
+                       }
+                   }
+               }
+
+
+
+
+
+
+            }
+            .second-slide-area{
+                
+                padding: 0 10px 0 10px ;
+                border-top: none;
+                
+                .tittle{
+                    display: block;
+                    padding: 10px 0 10px 0;
+                    margin-top: 10px;
+                    background-color: #F2F2F2;
+                    
+                    
+                }
+                .third-slider{
+                    border: 1px solid gray;
+                    .third-slide-item{
+                        .component{
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 5px;
+                            
+                           
+                            .img-zone{
+                                img{
+        
+                                }
                             }
-                            .price{
-                                color: #ff5c00;
-                                font-size: 18px;
+                            .text-zone{
+                                .about{
+                                    margin: 0;
+                                    font-size: 14px;
+        
+                                }
+                                span{
+                                    
+                                    font-size: 10px;
+                                    color: gray;
+        
+        
+                                }
+                                .price{
+                                    font-size: 16px;
+                                    color: #ff5c00;
+                                    font-weight: 600;
+        
+                                }
                             }
                         }
-
-
                     }
                 }
             }
-
         }
+        
     }
 }
-#fashion{
-}
-#electronic{
-}
+
 
 
 
