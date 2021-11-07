@@ -201,6 +201,29 @@ a{
         }
     }
 }
+@media only screen and (max-width: 600px){
+    #new-production{
+        .sm-left-img{
+            display: none !important;
+        }
+        .sm-right-slide{
+            width: 100% !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #new-production{
+        .big-row{
+            display: flex;
+            justify-content: space-between;
+            .left-blog{
+                width: 49%;
+
+            }
+        }
+    }
+}
 
 
 
