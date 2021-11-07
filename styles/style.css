@@ -838,6 +838,121 @@
   font-weight: 600;
 }
 
+#somewhere .custom-container .row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#somewhere .custom-container .row .left-img {
+  padding: 0;
+  width: 48%;
+  position: relative;
+  z-index: 1;
+}
+
+#somewhere .custom-container .row .left-img img {
+  width: 100%;
+}
+
+#somewhere .custom-container .row .left-img::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  height: 100%;
+  opacity: .5;
+}
+
+#somewhere .custom-container .row .left-img:hover::after {
+  width: 100% !important;
+}
+
+#somewhere .custom-container .row .right-img {
+  padding: 0;
+  width: 48%;
+  position: relative;
+  z-index: 1;
+}
+
+#somewhere .custom-container .row .right-img img {
+  width: 100%;
+}
+
+#somewhere .custom-container .row .right-img::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  height: 100%;
+  opacity: .5;
+}
+
+#somewhere .custom-container .row .right-img:hover::after {
+  width: 100% !important;
+}
+
+#portland {
+  margin-top: 30px;
+}
+
+#portland .custom-container {
+  padding: 0;
+}
+
+#portland .custom-container .row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#portland .custom-container .row::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  height: 100%;
+  opacity: .5;
+}
+
+#portland .custom-container .row:hover::after {
+  width: 100% !important;
+}
+
+#portland .custom-container .row .col-12 {
+  padding: 0;
+}
+
+#portland .custom-container .row .col-12 img {
+  width: 100%;
+}
+
 .custom-container {
   max-width: 1160px;
 }
@@ -1008,7 +1123,7 @@ a {
 }
 
 .fashion-and-electronics {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .fashion-and-electronics .custom-container .row .fashion-img {
