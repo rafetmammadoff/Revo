@@ -1043,8 +1043,16 @@
   font-weight: 600;
 }
 
+#from-our-blog {
+  margin-top: 30px;
+}
+
 #from-our-blog .custom-container {
   padding: 0;
+}
+
+#from-our-blog .custom-container .owl-stage-outer {
+  padding: 0 !important;
 }
 
 #from-our-blog .custom-container .head {
@@ -1069,7 +1077,7 @@
 }
 
 #from-our-blog .custom-container .big-slide-contain .first-blog {
-  padding: 5px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -1105,6 +1113,162 @@
 #from-our-blog .custom-container .big-slide-contain .first-blog .sm-blog .foot {
   font-size: 13px;
   color: #4f4f4f;
+  margin-top: 15px;
+}
+
+#partner {
+  margin-top: 40px;
+}
+
+#partner .custom-container .slide-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #b3b3b3;
+  padding: 10px 0 10px 0;
+}
+
+#partner .custom-container .slide-contain .slide-item img {
+  width: 160px;
+}
+
+#contact {
+  margin-top: 80px;
+  background-color: #ff5c00;
+}
+
+#contact .custom-container .row {
+  padding: 16px 0 16px 0;
+}
+
+#contact .custom-container .row .big-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 0.5px solid #b3b3b3;
+  width: 100% !important;
+}
+
+#contact .custom-container .row .big-component .component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .custom-container .row .big-component .component .icon-area {
+  font-size: 32px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#contact .custom-container .row .big-component .component .about p {
+  font-size: 13px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+#contact .custom-container .row .big-component .component .about span {
+  font-size: 13px;
+  color: #fff;
+}
+
+#contact .custom-container .row .no-border {
+  border: none !important;
+}
+
+#footer-top {
+  margin-top: 30px;
+}
+
+#footer-top .custom-container .row .first-component .tittle {
+  font-size: 15px;
+  color: #222222;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#footer-top .custom-container .row .first-component p {
+  font-size: 13px;
+  color: #4f4f4f;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#footer-top .custom-container .row .first-component p i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+#footer-top .custom-container .row .second-component .tittle {
+  font-size: 15px;
+  color: #222222;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#footer-top .custom-container .row .second-component .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer-top .custom-container .row .second-component .column .icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-color: #b3b3b3;
+  color: #fff;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+#footer-top .custom-container .row .second-component .column .about {
+  font-size: 13px;
+  color: #4f4f4f;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#footer-top .custom-container .row .second-component .sm-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 15px;
 }
 

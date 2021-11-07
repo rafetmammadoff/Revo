@@ -1,3 +1,50 @@
+$('.contact-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+
+
+
+
+
+$('.partner-slide').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+
+
+
+
 $('.from-our-blog-slide').owlCarousel({
     loop:true,
     margin:10,
@@ -83,7 +130,7 @@ $('.today-slider').owlCarousel({
     dots:false,
     responsive:{
         0:{
-            items:2
+            items:1
         },
         600:{
             items:3
