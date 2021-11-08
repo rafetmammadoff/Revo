@@ -1024,7 +1024,8 @@
     }
 }
 #footer-top{
-    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding-top: 30px;
     .custom-container{
         .row{
             .first-component{
@@ -1087,6 +1088,164 @@
                     margin-top: 15px;
                 }
 
+            }
+        }
+    }
+}
+#footer-nav{
+    background-color: #f0f0f0;
+
+    .custom-container{
+        .f-big-nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+            border-top: .5px solid #b3b3b3;
+            .nav-area{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                list-style-type: none;
+                flex-wrap: wrap;
+                justify-content: center;
+                li{
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin: 0 10px;
+                }
+                
+            }
+        }
+        p{
+            text-align: center;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding-bottom: 20px;
+            border-bottom: .5px solid #b3b3b3;
+
+            span{
+                max-width: 50%;
+                font-size: 13px;
+                font-weight: 300;
+            }
+
+
+        }
+    }
+}
+#sign-up{
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    .custom-container{
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .about{
+                font-weight: 600;
+                font-size: 15px;
+
+            }
+            .inp{
+                form{
+                    position: relative;
+                    max-width: 500px;
+                    height: 42px;
+                    border-radius: 50px;
+                    input{
+                        width: 100%;
+                        height: 42px;
+                        border-radius: 50px;
+                        outline: none;
+                        border: none;
+
+
+                    }
+                    button{
+                        max-width: 120px;
+                        height: 42px;
+                        border-top-right-radius: 25px;
+                        border-bottom-right-radius: 25px;
+                        border: none;
+                        background-color: #ff5c00;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: #fff;
+
+                    }
+                }
+            }
+            .web{
+                display: flex;
+                align-items: center;
+
+                
+                span{
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin-right: 10px;
+                    
+
+                }
+                .web-icons{
+                    display: flex;
+                    .box{
+                        width: 34px;
+                        height: 34px;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+#footer-bottom{
+    background-color: #3b3b3b;
+    .custom-container{
+        .tittle{
+            font-size: 13px;
+            font-weight: 300;
+            color: #7d7d7d;
+            text-align: center;
+            padding-top: 22px;
+            span{
+                color: #ff5c00;
+            }
+        }
+        .cards{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+            .card{
+                display: block;
+                background-color: transparent;
+                color: #7d7d7d;
+                font-size: 30px;
+                border: none;
+                padding-bottom: 22px;
+                i{
+                    margin-right: 7px;
+                }
             }
         }
     }

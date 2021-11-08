@@ -1193,7 +1193,8 @@
 }
 
 #footer-top {
-  margin-top: 30px;
+  background-color: #f0f0f0;
+  padding-top: 30px;
 }
 
 #footer-top .custom-container .row .first-component .tittle {
@@ -1270,6 +1271,211 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 15px;
+}
+
+#footer-nav {
+  background-color: #f0f0f0;
+}
+
+#footer-nav .custom-container .f-big-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+  border-top: .5px solid #b3b3b3;
+}
+
+#footer-nav .custom-container .f-big-nav .nav-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer-nav .custom-container .f-big-nav .nav-area li {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+#footer-nav .custom-container p {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: .5px solid #b3b3b3;
+}
+
+#footer-nav .custom-container p span {
+  max-width: 50%;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#sign-up {
+  background-color: #f0f0f0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#sign-up .custom-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sign-up .custom-container .row .about {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#sign-up .custom-container .row .inp form {
+  position: relative;
+  max-width: 500px;
+  height: 42px;
+  border-radius: 50px;
+}
+
+#sign-up .custom-container .row .inp form input {
+  width: 100%;
+  height: 42px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+#sign-up .custom-container .row .inp form button {
+  max-width: 120px;
+  height: 42px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+  background-color: #ff5c00;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#sign-up .custom-container .row .web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sign-up .custom-container .row .web span {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+#sign-up .custom-container .row .web .web-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sign-up .custom-container .row .web .web-icons .box {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 5px;
+}
+
+#footer-bottom {
+  background-color: #3b3b3b;
+}
+
+#footer-bottom .custom-container .tittle {
+  font-size: 13px;
+  font-weight: 300;
+  color: #7d7d7d;
+  text-align: center;
+  padding-top: 22px;
+}
+
+#footer-bottom .custom-container .tittle span {
+  color: #ff5c00;
+}
+
+#footer-bottom .custom-container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer-bottom .custom-container .cards .card {
+  display: block;
+  background-color: transparent;
+  color: #7d7d7d;
+  font-size: 30px;
+  border: none;
+  padding-bottom: 22px;
+}
+
+#footer-bottom .custom-container .cards .card i {
+  margin-right: 7px;
 }
 
 .custom-container {
