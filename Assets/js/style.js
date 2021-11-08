@@ -246,6 +246,16 @@ for(var i =0; i < boxarr.length; i++){
     });
 }
 
+// function layoutfunc(){
+//     var lay=document.getElementById('layout-over')
+//     lay.classList.toggle('over')
+// }
+// function layoutfuncr(){
+//     var remov=document.getElementById('layout-over')
+//     remov.classList.toggle('removes1')
+    
+    
+// }
 
 // boxarr.forEach(function(box) {
 //     box.addEventListener("mouseover", function() {

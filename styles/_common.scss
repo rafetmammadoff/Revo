@@ -238,6 +238,16 @@ a{
 .removes{
     display: none !important;
 }
+.over{
+    transform: translateY(0px) !important;
+    opacity: 1 !important;
+    z-index: 44 !important;
+}
+.removes1{
+    transform: translateY(100px) !important;
+    z-index: -1;
+    opacity: 0 !important;
+}
 
 
 
