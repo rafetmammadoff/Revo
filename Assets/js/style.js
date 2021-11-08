@@ -1,5 +1,13 @@
-// var login=document.getElementById('fixed-login')
-// login.style.display=('block')
+function login12(){
+    var loginsec=document.getElementById('fixed-login')
+    loginsec.classList.toggle('removes')
+}
+
+var login=document.getElementById('fixed-login')
+
+login.style.display=('flex')
+
+
 
 $('.contact-slider').owlCarousel({
     loop:true,
@@ -260,4 +268,7 @@ for(var i =0; i < boxarr.length; i++){
 // for(var a = 0; a<arr.length; a++){
 //     console.log(arr[a])
 // }
+
+
+
 

@@ -41,6 +41,44 @@
                 transition: 1s;
             }
         }
+        .bottom{
+            display: flex;
+            align-items: center;
+            transform: translateY(120px);
+            position: absolute;
+            opacity: 0;
+            transition: 1s;
+            .box-b1{
+                width: 100px;
+                height: 32px;
+                border: none;
+                border-radius: 50px;
+                background-color: #ff5c00;
+                
+                transition: 1s;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+                font-weight: 400;
+
+            }
+            .box-b2{
+                width: 30px;
+                height: 30px;
+                background-color: transparent;
+                border-radius: 50%;
+                border: 1px solid #ff5c00;
+                color: #ff5c00;
+                font-size: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                transition: 1s;
+            }
+        }
 
     }
 
@@ -58,6 +96,10 @@
         .box-1{
             opacity: 1;
             transform: translateX(0px);
+        }
+        .bottom{
+           opacity: 1;
+           transform: translateY(102px);
         }
         
 
