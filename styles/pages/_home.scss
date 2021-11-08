@@ -5,6 +5,122 @@
     z-index: 0;
     font-family: raleway;
 }
+#fixed-login{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 99;
+    background-color: rgba(0,0,0,.8);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .custom-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .login-area{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .log-zone{
+                background-color: #fff;
+                padding: 0;
+
+                
+               .sm-row{
+                   width: 100%;
+                   display: flex;
+                   align-items: center;
+                   margin: 0;
+                   position: relative;
+                   #remove{
+                       position: absolute;
+                       top: 10px;
+                       right: 10px;
+                       display: inline-block;
+                   }
+                .left-img{
+                    img{
+                        width: 100%;
+                    }
+
+                }
+                .right-text{
+                    text-align: center;
+                    .contain{
+                        width: 100%;
+                        .tittle{
+                            font-size: 34px;
+                            font-weight: 600;
+                            margin-bottom: 15px;
+                        }
+                        .content{
+                            color: #495057;
+                            font-size: 13px;
+                            font-weight: 300;
+                            margin-bottom: 20px;
+                        }
+                        .form-area{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            form{
+                                width: 100%;
+                                height: 42px;
+                                position: relative;
+                                border:0.2px solid #ccc;
+                                width: 100%;
+                                input{
+                                    width: 100%;
+                                    height: 40px;
+                                    border: none;
+                                    
+                                    outline: none;
+        
+                                }
+                                button{
+                                    width: 33%;
+                                    height: 40px;
+                                    background-color: #ff5c00;
+                                    border: none;
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #fff;
+                                }
+                            }
+                            
+                        }
+                        .foot{
+                            font-size: 13px;
+                            color: #495057;
+                            font-weight: 400;
+                            margin-top: 20px;
+                        }
+                        .links{
+                            margin-top: 25px;
+                            font-size: 21px;
+                            color: #495057;
+                            i{
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                    
+                }
+               }
+            }
+        }
+    }
+}
 #slide-component-2{
     position: absolute;
     z-index: 3;

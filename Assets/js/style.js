@@ -1,4 +1,5 @@
-
+// var login=document.getElementById('fixed-login')
+// login.style.display=('block')
 
 $('.contact-slider').owlCarousel({
     loop:true,
